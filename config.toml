@@ -1,0 +1,30 @@
+baseURL = 'https://hienvl125.github.io/devlog/'
+theme = 'paper'
+title = "Hien's blog"
+languageCode = 'en-us'
+paginate = 10
+DefaultContentLanguage = 'en'
+enableInlineShortcodes = true
+ignoreErrors = ["error-remote-getjson"]
+
+[params]
+  color = 'gray' # linen, wheat, gray, light
+  github = 'hienvl125'
+  rss = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
